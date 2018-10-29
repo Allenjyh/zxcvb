@@ -1,0 +1,74 @@
+/*存在所有的基础样式 */
+/*设置字体大小*/
+.my_small{
+    font-size: 0.3rem;
+}
+/*设置详情*/
+.xql{
+   font-size: 14px;
+   border-bottom:1px dotted #ddd;
+}
+/*销售折扣价*/
+.zkj{
+    color: red;
+    font-size: 18px;
+}
+/*销售详情按钮*/
+.xqan{
+    color: #fff;
+    background: #f1b0b7;
+}
+.xqans{
+    background: #f5c6cb;
+}
+/*引入网页头部和底部的样式*/
+
+.my_header{
+    width: 100%;
+}
+@media screen and (max-width: 991px) {
+.my_header{
+    width: 100%;
+    height: 15rem;
+ }
+}
+.my_footer {
+    width: 100%;
+    height: 24rem;
+}
+@media screen and (max-width: 991px) {
+    .my_footer {
+        width: 100%;
+        height: 39rem;
+    }
+}
+/*尺码按钮*/
+.span {
+    padding: 3px 5px;
+    border: 1px solid #dddddd;
+    line-height: 15px;
+    display: block;
+    margin-right: 6px;
+}
+/*边框颜色*/
+.my_border{
+    border: 1px solid #dddddd;
+}
+
+.my_hover:hover{
+    border:2px solid #f90;
+}
+/*小按钮样式*/
+.my_btnGray{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    width: 2.5rem;
+
+}
+
+.my_input_w {
+    width: 3rem;
+}
+/*购买按钮*/
+.gman{
+    width: 630px;
+}
